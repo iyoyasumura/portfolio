@@ -1,0 +1,227 @@
+/* CSS Document */
+
+@charset "utf-8";
+
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+
+html {
+	font-size: 14px;
+	font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	background-color: #ffffff4;
+	background-image: url("../img/red+blue.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	color: #0C1640;
+}
+
+@media (max-width: 1024px) {
+	html{
+		font-size: 8px;
+		background-image: url("../img/red+blue_sp.png");
+		}
+}
+
+
+
+#contents{
+	background-color: #fffff4;
+	width: 65%;
+	margin: 0 auto;
+	padding: 0;
+	border-bottom: solid #0C1640;
+}
+
+@media (max-width: 1024px){
+	#contents{
+	width: 90%;
+	padding: 0;
+	
+	}
+}
+
+
+p{
+	font-size: 1rem;
+}
+
+
+.logo{
+	width: 10%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 20px;
+}
+
+.pt{
+	width: 4%;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	padding: 0 20px 50px 0;
+}
+
+.menu{
+	position: fixed;
+	top: 15px;
+	left: 20px;
+}
+
+.menu p{
+	font-size: 1.3rem;
+}
+
+@media (max-width: 1024px){
+	.logo{
+	width: 10%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	}
+	
+	.pt{
+	width: 8%;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	padding: 0 10px 25px 0;
+	}
+}
+		
+p{
+	font-size: 1rem;
+}
+
+h1{
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 60px;
+	padding-bottom: 20px
+}
+
+h2{
+	border-top: solid #0C1640;
+	text-align: center;
+	font-size: 1.4rem;
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+
+
+.work{
+	display: flex;
+	width: 80%;
+	margin: 10px auto;
+	padding: 0;
+}
+@media (max-width: 700px){
+	.work{
+		display: inline;
+		width: 90%;
+		margin: 50px auto;
+	}
+}
+
+
+.pro img, video{
+	width: auto;
+	height: auto;
+	max-width: 250px;
+	max-height: 250px;
+}
+.ant{
+	transform: rotate( -90deg );
+}
+
+@media (max-width: 700px){
+	.pro img, video{
+		padding-bottom: 10px;
+		border-bottom: dotted #0C1640;
+	}
+	.ant img{
+		border-bottom: none;
+		padding-bottom: 0;
+		padding-left: 10px;
+		border-left: dotted #0C1640;
+	}
+}
+
+@media (max-width: 200px){
+	.pro img, video{
+	max-width: 90%;
+	max-height: auto;
+	}
+}
+.ant{
+	transform: rotate( -90deg );
+}
+
+.pro{
+	display: flex;
+	width: 50%;
+	padding: 0;
+	justify-content: center;
+  	align-items: center;
+}
+
+.info{
+	width: 50%;
+	margin: auto;
+	padding: 5%;
+}
+
+@media (max-width: 700px){
+	.pro{
+		width: 100%;
+	}
+	.info{
+		text-align: center;
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	}
+}
+
+.title{
+	text-align: center;
+	font-size: 1.3rem;
+	margin-bottom: 15px;
+}
+.right{
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+
+#foot{
+	height: 100px;
+	text-align: center;
+	padding: 70px;
+}
+
+.bottom{
+	width: 15%;
+	height: auto;
+}
+
+@media (max-width: 700px){
+	.bottom{
+	width: 25%;
+	height: auto;
+	}
+}
