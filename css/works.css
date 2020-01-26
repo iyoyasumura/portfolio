@@ -197,6 +197,13 @@ h2{
 	}
 }
 
+@media (max-width: 374px){
+	.info{
+		text-align: left;
+	}
+}
+
+
 .title{
 	text-align: center;
 	font-size: 1.3rem;
