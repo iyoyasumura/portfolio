@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+
+html {
+	font-size: 14px;
+	font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	background-color: #ffffff4;
+	background-image: url("../img/back_ful.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #0C1640;
+}
+
+@media (max-width: 1024px) {
+	html{
+		font-size: 8px;
+		}
+}
+
+
+#contents{
+	width: 65%;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+@media (max-width: 1024px){
+	#contents{
+	width: 80%;
+	padding: 0;
+	
+	}
+}
+
+p{
+	font-size: 1rem;
+}
+
+
+.logo{
+	width: 10%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 20px;
+}
+
+.pt{
+	width: 4%;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	padding: 0 20px 50px 0;
+}
+
+.pf{
+	width: 40%;
+	height: auto;
+	margin: 0 0 150px 0;
+}
+	
+@media (max-width: 1024px){
+	.logo{
+	width: 10%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	}
+	
+	.pt{
+	width: 8%;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	padding: 0 10px 25px 0;
+	}
+
+	.pf{
+	width: 40%;
+	height: auto;
+	margin: 0 0 60px 0;
+	}
+}
+
+
+
+#about{
+	
+	position: relative;
+	padding: 0;
+	margin: 50px 0 50px 50px;
+}
+
+#about h2{
+	font-size: 1.5rem;
+}
+
+.face{
+	width: 15%;
+	height: auto;
+	position: absolute;
+	top: 15px;
+	right: 10%;
+	margin: 0 0 0 20px;
+}
+
+@media (max-width: 1024px){
+	#about{
+	position: relative;
+	padding: 0;
+	margin: 50px 0 50px 120px;
+	}
+	
+	.face{
+	width: 13%;
+	height: auto;
+	position: absolute;
+	top: 15px;
+	right: 25%;
+	margin: 0 0 0 20px;
+	}
+}
+
+@media (max-width: 425px){
+	#about{
+	position: relative;
+	padding: 0;
+	margin: 25px 0;
+	}
+
+	.face{
+	width: 20%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 5px;
+	margin: 0;
+	}
+}
+
+
+
+#concept{
+	width: 50%;
+	height: auto;
+	padding: 0;
+	margin: 80px auto;
+	position: relative;
+}
+
+#concept h3{
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 0 0 5px 0;
+	border-bottom: solid 1px #0C1640;
+}
+
+th{
+	text-align: center;
+}
+
+td{
+	font-size: 1rem;
+	padding: 5px;
+	width: 45%;
+	padding: 0 auto;
+}
+
+.kake{
+	position: absolute;
+	right: 50%;
+	top: 30%;
+}
+
+@media (max-width: 425px){
+	#concept{
+	width: 80%;
+	height: auto;
+	}
+	
+	.kake{
+		top: 28%;
+	}
+}
+
+h3{
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+@media (max-width: 1024px){
+	h3 img{
+	height: 17px;
+	width: auto;
+}
+}
+
+#box{
+	width: 100%;
+	padding: 2.5% 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.st{
+	width: 20%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+.st img{
+	width: 40%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+h4{
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+@media (max-width: 1024px){
+	#box p{
+		font-size: 0.8rem;
+	}
+	.st img{
+	width: 30%;
+	height: auto;
+	}
+	
+	h4{
+	text-align: center;
+	font-size: 1.2rem;
+}
+}
+
+#strength, #skills{
+	margin-bottom: 100px;
+}
+
+#skills{
+	text-align: center;
+}
+
+#skills img{
+	width: 60%;
+	margin: 30px;
+}
+
+@media (min-width: 800px){
+	#skills img{
+		width: 30%;
+	}
+}
+
+#skills p{
+	text-align: right;
+}
+
+
+.bottom {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 50px;
+  color: #8c97cb;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #6182ca, 0px 2px 0px #4f6aa7, 0px 3px 0px #5470ad;
+}
+.bottom:active {
+  top: 4px;
+  text-shadow: none;
+}
+
+
+#contact{
+	padding: 50px 0;
+}
+
+#contact h3{
+	text-align: center;
+}
+
+#contact p{
+	text-align: center;
+}
+
+.add{
+	color: #8c97cb;
+	font-size: 1.2rem;
+	margin-top: 30px;
+}
